@@ -1,0 +1,17 @@
+﻿生成启动时间为 2018/12/23 17:38:29。
+     1>项目“E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\homework3\homework3.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\homework3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         homework3.vcxproj -> E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\Debug\homework3.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\homework3.unsuccessfulbuild”。
+         正在对“Debug\homework3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\homework3\homework3.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.07

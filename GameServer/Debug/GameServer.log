@@ -1,0 +1,41 @@
+﻿生成启动时间为 2018/12/23 17:35:05。
+     1>项目“E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\GameServer\GameServer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\GameServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp TCPServer.cpp WinMain.cpp
+         WinMain.cpp
+         TCPServer.cpp
+         Game.cpp
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(15): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GAME_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(23): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(24): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(276) : 参见“wcscat”的声明
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(85): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GAME_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(92): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GAME_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(101): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(150): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(283) : 参见“wcscpy”的声明
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(288): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PLAYER_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(308): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PLAYER_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(313): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PLAYER_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(320): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GAME_STATE”
+     1>e:\老师们\游戏综合实践i\成品\《深海探宝》（网络版）\gameserver\game.cpp(338): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“PLAYER_STATE”
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\Debug\GameServer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GameServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\Debug\GameServer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\Debug\GameServer.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\TCPServer.obj
+         Debug\WinMain.obj
+         GameServer.vcxproj -> E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\Debug\GameServer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\Debug\GameServer.exe;#1" /manifest Debug\GameServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\GameServer.unsuccessfulbuild”。
+         正在对“Debug\GameServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\老师们\游戏综合实践I\成品\《深海探宝》（网络版）\GameServer\GameServer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.02
